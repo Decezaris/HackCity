@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulário de Cadastro</title>
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <style>
+        .header-center {
+            text-align: center;
+            padding: 15px;
+        }
+
+        .form-div {
+            width: 80%;
+            margin: 0 auto;
+        }
+    </style>
+
+    <script src="form.js"></script>
+</head>
+
+<body>
+    <h1 class="display-4 header-center">Formulário de Cadastro</h1>
+    <div class="form-div">
+        <form>
+            <div class="form-group">
+                <label for="formGroupExampleInput">CPF</label>
+                <input type="text" class="form-control" id="formGroupExampleInput">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput2">Telefone</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput2">Idade</label>
+                <input type="number" class="form-control" id="formGroupExampleInput3">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput2">Endereço</label>
+                <input type="text" class="form-control" id="formGroupExampleInput4">
+            </div>
+            <button id="register" type="submit" class="btn btn-primary">Cadastrar</button>
+        </form>
+    </div>
+</body>
+
+</html>
